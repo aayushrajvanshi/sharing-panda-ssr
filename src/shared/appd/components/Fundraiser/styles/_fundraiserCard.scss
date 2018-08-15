@@ -1,0 +1,210 @@
+.campaign-card {
+    margin: auto;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    max-height: 400px;
+}
+
+.campaign-card hr {
+    max-width: 90%;
+    margin: auto;
+}
+
+.campaign-card:hover .social {
+    right: 0px;
+}
+
+.card-image {
+    width: 100%;
+    height: 150px;
+    display: block;
+    margin: 0px 0 10px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+
+.card-image img:hover {
+    transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    /* IE 9 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.2, SizingMethod='auto expand')";
+    /* IE8 */
+    filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.2, SizingMethod='auto expand');
+    /* IE6 and 7 */
+}
+
+.card-image .category {
+    min-width: 50px;
+    left: 0px;
+    bottom: 0px;
+    padding: 0 10px;
+    background-color: goldenrod;
+    text-align: center;
+    position: absolute;
+}
+
+.card-image .category span {
+    color: white;
+    font-size: 12px;
+}
+
+.social {
+    width: 40px;
+    top: 20px;
+    right: -40px;
+    position: absolute;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3ss ease;
+}
+
+.social span {
+    display: block;
+    margin: 5px 0px;
+    height: 40px;
+    background-color: goldenrod;
+    text-align: center;
+}
+
+.social span i {
+    font-size: 1.5rem;
+    line-height: 40px;
+    color: white;
+}
+
+.campaign-info {
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 0 10px 10px 10px;
+    box-sizing: border-box;
+}
+
+.campaign-info p:first-of-type {
+    line-height: 1.2rem;
+    font-size: 1rem;
+    margin: 0px;
+    color: black;
+}
+
+.campaign-info span:first-of-type {
+    font-size: 0.8rem;
+    color: black;
+}
+
+.campaign-info span:first-of-type:after {
+    content: " "
+}
+
+.campaign-info span:last-of-type {
+    font-size: 0.8rem;
+    color: #165fda;
+}
+
+.campaign-info p:last-of-type {
+    color: black;
+    line-height: 1.2rem;
+    font-size: 0.8rem;
+    margin: 0px;
+}
+
+.campaign-progress {
+    width: 100%;
+    display: block;
+    padding: 0 10px 0 10px;
+    box-sizing: border-box;
+    font-size: 0.7rem;
+    position: relative;
+    margin: 0 0 10px 0;
+}
+
+.campaign-progress span p {
+    margin: 0;
+    display: inline;
+}
+
+.campaign-progress span:first-child {
+    color: black;
+    float: left;
+}
+
+.campaign-progress span:last-of-type p {
+    color: black;
+    float: right;
+}
+
+.campaign-progress progress {
+    margin: 5px 0 0 0;
+    display: inline-block;
+    height: 8px;
+}
+
+.campaign-status {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 0.7rem;
+    position: relative;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.campaign-status i,
+span {
+    font-size: 0.8rem;
+    color: black;
+}
+
+.campaign-status span:before {
+    content: " "
+}
+
+.campaign-status p {
+    color: black;
+    margin: 0;
+}
+
+.campaign-status div {
+    display: inline-block;
+    width: 33%;
+}
+
+.campaign-status div:nth-of-type(1) i {
+    color: goldenrod;
+}
+
+.campaign-status div:nth-of-type(2) i {
+    color: red;
+}
+
+.campaign-status div:nth-of-type(3) i {
+    color: black;
+}
+
+.campaign-status div:nth-of-type(1) {
+    border-right: 1px solid #ddd;
+}
+
+.campaign-status div:nth-of-type(2) {
+    border-right: 1px solid #ddd;
+}
