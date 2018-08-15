@@ -1,3 +1,3 @@
 ## SHARING PANDA
 
-# With Server Side Rendering
+With Server Side Rendering
